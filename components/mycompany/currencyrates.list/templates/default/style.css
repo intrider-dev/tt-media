@@ -1,0 +1,14 @@
+.currency-rate-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.currency-rate-table th, .currency-rate-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.currency-rate-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
