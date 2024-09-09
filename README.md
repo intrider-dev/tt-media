@@ -101,24 +101,30 @@
 
 2. Структура файлов:
 
-    /local/modules/my.currencyrates/
-        ├── admin/                          # Административные файлы
-        │   ├── currencyrates_admin.php     # Основной файл для административного интерфейса
-        │   ├── currencyrates_edit.php      # Файл редактирования элементов получаемых модулем
-        │   ├── currencyrates_settings.php  # Файл редактирования настроек модуля
-        ├── components/
-        │   ├── currencyrates.filter/       # Компонент фильтра
-        │   │   └── templates/default/      # Шаблон компонента фильтра
-        │   ├── currencyrates.list/         # Компонент списка курсов валют
-        │   │   └── templates/default/      # Шаблон компонента списка
-        ├── install/                        # Файлы установки и удаления модуля
-        │   ├── version.php                 # Версия модуля
-        │   └── index.php                   # Класс установки и удаления модуля
-        ├── lang/                           # Языковые файлы
-        ├── lib/                            # Библиотеки и классы
-        │   ├── agent.php                   # Класс агента
-        │   ├── cbr_api.php                 # Класс интеграции с API ЦБ РФ
-        │   └── currencyrate.php            # ORM класс для работы с базой данных
+<div>
+    <h2>2. Структура файлов:</h2>
+    <pre>
+/local/modules/my.currencyrates/
+├── admin/                          # Административные файлы
+│   ├── currencyrates_admin.php     # Основной файл для административного интерфейса
+│   ├── currencyrates_edit.php      # Файл редактирования элементов, получаемых модулем
+│   ├── currencyrates_settings.php  # Файл редактирования настроек модуля
+├── components/
+│   ├── currencyrates.filter/       # Компонент фильтра
+│   │   └── templates/default/      # Шаблон компонента фильтра
+│   ├── currencyrates.list/         # Компонент списка курсов валют
+│   │   └── templates/default/      # Шаблон компонента списка
+├── install/                        # Файлы установки и удаления модуля
+│   ├── version.php                 # Версия модуля
+│   └── index.php                   # Класс установки и удаления модуля
+├── lang/                           # Языковые файлы
+├── lib/                            # Библиотеки и классы
+│   ├── agent.php                   # Класс агента
+│   ├── cbr_api.php                 # Класс интеграции с API ЦБ РФ
+│   └── currencyrate.php            # ORM-класс для работы с базой данных
+    </pre>
+</div>
+
 
 3. Таблица базы данных:
 
