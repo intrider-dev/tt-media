@@ -108,6 +108,7 @@
 │   ├── currencyrates_admin.php     # Основной файл для административного интерфейса
 │   ├── currencyrates_edit.php      # Файл редактирования элементов, получаемых модулем
 │   ├── currencyrates_settings.php  # Файл редактирования настроек модуля
+│   ├── menu.php                    # Файл для регистрации меню в административном интерфейсе
 ├── components/
 │   ├── currencyrates.filter/       # Компонент фильтра
 │   │   └── templates/default/      # Шаблон компонента фильтра
