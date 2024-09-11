@@ -24,11 +24,15 @@
 
     1.1. Скачайте или клонируйте репозиторий в директорию "/local/modules/my.currencyrates".
 
+    ```bash
          git clone https://example.com/repo/my.currencyrates.git /local/modules/my.currencyrates
+    ```
 
     1.2. Перейдите в административную панель Bitrix:
 
+    ```bash
          http://yourdomain.com/bitrix/admin/partner_modules.php
+    ```
 
     1.3. Найдите модуль "my.currencyrates" и нажмите "Установить".
 
